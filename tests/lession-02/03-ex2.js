@@ -1,5 +1,5 @@
-const myName = "Alex";
+let myName = "Alex";
 
-const myName2 = "Nagi";
+let myName2 = "Nagi";
 
 console.log(myName);

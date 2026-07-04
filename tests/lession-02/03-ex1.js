@@ -5,6 +5,6 @@ let name = "my number";
 let isEven = false;
 
 if (number % 2 === 0) {
-    console.log (true)
+    console.log (isEven = true)
 }
 
