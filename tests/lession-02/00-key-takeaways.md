@@ -4,8 +4,8 @@ Centralize: lưu ở máy chủ tập trung
 Distributed: lưu ở nhiều máy khác nhau
 
 #Git: 3 states
-Working Directory: file mới / file có update
-Staging Area: file đưa vào vùng chuẩn bị tạo commit
+Working Directory: file mới / file có update (chưa được git kiểm soát)
+Staging Area: file đưa vào vùng chuẩn bị tạo commit 
 Repository: Commit
 
 git init: khởi tạo repo local
