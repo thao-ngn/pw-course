@@ -34,3 +34,50 @@ node_modules/ : ignore thư mục
 /TODO : ignore file chỉ ở thư mục gốc
 doc/**/*.txt : ignore tất cả file txt trong thư mục doc/
 
+# Javascript - convention
+- snake_case
+- kebab-case
+- camelCase
+- PascalCase
+
+## console.log with ' and "
+
+# Object : data type, lưu dữ liệu dạng key-value
+key: value
+- key: giống quy tắc đặt tên biến
+- value: có kiểu giống biến hoặc 1 object khác
+
+# Logical operator
+- && : cả 2 vế của mệnh đề đều đúng
+- || : một trong 2 vế đúng
+- ! : đảo ngược lại giá trị của mệnh đề
+
+# Array : mảng
+const diem1 = 3;
+const diem2 =7;
+const diem3 = 9;
+
+const diem = [diem1, diem2, diem3];
+
+console.log(diem[2]);
+
+const arr = [1, 2, 3, 4, 5];
+
+console.log(arr[0]);
+console.log(arr.length);
+
+# Function: hàm
+function <nameFunction>(){
+    // code
+    function kiemTraChanLe(number){
+    if (number % 2 ===0){
+        return "Chan";
+    }
+    if (number % 2 === 1) {
+        return "Le";
+    }
+}
+console.log(kiemTraChanLe(2));
+console.log(kiemTraChanLe(3));
+
+}
