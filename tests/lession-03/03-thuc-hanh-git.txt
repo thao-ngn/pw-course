@@ -1,0 +1,10 @@
+a. 
+- Working directory
+
+b.
+
+
+- Local:
+- Working directory
+- Staging: 
+- Repository

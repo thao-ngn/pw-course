@@ -1,0 +1,5 @@
+git commit --ammend : undo commit 
+git commit --ammend -m "message" : undo commit  với message
+git restore -staged <file> : restore file cu the
+git reset HEAD~1 : reset 1 commit
+
