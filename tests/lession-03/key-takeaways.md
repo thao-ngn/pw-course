@@ -69,6 +69,8 @@ console.log(arr.length);
 # Function: hàm
 function <nameFunction>(){
     // code
+}
+
     function kiemTraChanLe(number){
     if (number % 2 ===0){
         return "Chan";
@@ -80,4 +82,3 @@ function <nameFunction>(){
 console.log(kiemTraChanLe(2));
 console.log(kiemTraChanLe(3));
 
-}
