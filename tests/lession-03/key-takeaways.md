@@ -1,6 +1,6 @@
 # Git - undo
 ## Commit message
-git commit --amend -m "message"
+git commit --amend -m "message" : sửa msg của commit 
 
 ## File staging to working directory
 git restore --staged <file_name> : restore file cu the
