@@ -1,3 +1,4 @@
+//1 
 let car = {
     make : "Toyota",
     model: "Corolla",
@@ -5,6 +6,8 @@ let car = {
 }
 
 console.log(car.year);
+
+//2
 
 let person = {
     name : "John",
@@ -17,10 +20,19 @@ let person = {
 
 console.log(person.address.street);
 
+//3
+
 let student = {
     name : "Joe",
-    grades : [math =10, english= 8]
+    grades : {
+        math : 10, 
+        english: 8
+    }
 }
+
+console.log(student.grades["math"]);
+
+//4
 
 let settings = {
     volume : 10,
@@ -30,9 +42,10 @@ let settings = {
 settings.volume = 20;
 console.log(settings.volume);
 
-let bike = {
-    color : "red"
-}
+//5
+
+let bike = {};
+bike.color = "red";
 
 let employee = {
     name : "Bin",
@@ -41,6 +54,7 @@ let employee = {
 }
 delete employee.age;
 
+//6
 const school = {
     classA: ["An", "Binh", "Chau"],
     classB: ["Dao", "Huong", "Giang"]

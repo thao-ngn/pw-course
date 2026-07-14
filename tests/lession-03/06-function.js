@@ -22,23 +22,37 @@ console.log(findMin(10,15,7));
 
 //3
 
-function getTopStudents(students, threshold =9){
-return students(students.score >= threshold)
+//sai
+// function getTopStudents(students, threshold =9){
+// return students(students.score >= threshold)
     
+// }
+// const student = [
+//     {name : "Minh" , score: 9},
+//     {name : "Tuan" , score: 8},
+//     {name : "Thanh" , score: 10},
+
+// ]
+// console.log(getTopStudents.students)
+
+//fix
+function getTopStudents(student, threshold){
+    return students.filter(student => student.score >=threshold)
+    .map(student=>student.name);
+
 }
-const student = [
+const studentsList = [
     {name : "Minh" , score: 9},
     {name : "Tuan" , score: 8},
     {name : "Thanh" , score: 10},
+];
 
-]
-console.log(getTopStudents.students)
+console.log(getTopStudents(studentsList, 9));
 
 //4
 
 function calculateInterest (principal, rate, years){
     return principal + principal*rate *years / 100
 }
-
 
 console.log (calculateInterest(1000 , 5, 10))
