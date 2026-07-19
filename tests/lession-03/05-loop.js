@@ -6,7 +6,13 @@ for(let i =1 ; i <= 100 ; i++){
 console.log(sum);
 
 //2
-// Bài 2 này mình chưa biết làm, nhờ mentor gợi ý cho mình với ạ
+for (let i= 2 ; i <=9 ; i++){
+    console.log(`Bang Cuu Chuong ${i}`);
+
+    for (let j = 1 ; j <= 10 ; j++){
+        console.log(`${i} x ${j} = ${i * j}`);
+    }
+}
 
 //3
 
