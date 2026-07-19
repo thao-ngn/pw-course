@@ -30,9 +30,10 @@ test ('Test 1', async({ page }) => {
     });
 
     await test.step ("Step 6: Select Interests Option", async() =>{
-        await page.locator("//select[@id='interests']//option[@value='technology']").click();
+        const intersetSelect = page.locator("//select[@id='interests']")
 
-    
+        await intersetSelect.selectOption(['Technology'])
+
     });
 
     await test.step ("Step 7: Select Country " , async() => {
