@@ -12,9 +12,6 @@ test ('Test 1', async({ page }) => {
     await test.step ("Step 3: Fill Username/Email", async() =>{
         await page.locator("//input[@id='username']").fill("Thanh");
         await page.locator("//input[@id='email']").fill("thao@email.com");
-        await page.locator("//input[@id='female']").click();
-        await page.locator("//input[@id='traveling']").click();
-        await page.locator("//select[@id='interests']//option[@value='technology']").click();
 
         
     });
