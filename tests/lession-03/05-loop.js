@@ -6,6 +6,7 @@ for(let i =1 ; i <= 100 ; i++){
 console.log(sum);
 
 //2
+
 for (let i= 2 ; i <=9 ; i++){
     console.log(`Bang Cuu Chuong ${i}`);
 

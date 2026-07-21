@@ -24,12 +24,15 @@ test('Test 3', async ({ page }) => {
     //Xoa item so le
 
     await test.step("Step 4: Xoa item so le", async() => {
+        page.on('dialog', async dialog => dialog.accept());
+
         for (let i = 1; i <= 100 ; i++){
             if(i % 2 === 0){
                 continue;
-                const soLeDeleteButton = page.locator(`//button[@id='task-${i}-delete']`);
-                await soLeDeleteButton.click();
+                
             }
+            const soLeDeleteButton = page.locator(`//button[@id='todo-${i}-delete']`);
+            await soLeDeleteButton.click();
         }
 
        
